@@ -131,9 +131,9 @@ class _ModernCalculatorState extends State<ModernCalculator> {
                     crossAxisSpacing: 15,
                     children: [
                       buildButton('C', Colors.redAccent),
-                      buildButton('⌫', Colors.grey),
+                      buildButton('×', Colors.grey),
                       buildButton('÷', Colors.blue),
-                      buildButton('×', Colors.blue),
+                      buildButton('⌫', Colors.blue),
                       buildButton('7', Colors.black),
                       buildButton('8', Colors.black),
                       buildButton('9', Colors.black),
