@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:interest_calculator/screens/calculator_screen.dart';
+import 'package:interest_calculator/screens/modern_calculator.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CalculatorScreen(),
+      home: ModernCalculator(),
     );
   }
 }
